@@ -1,0 +1,68 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #57a5d8, #e26253);
+    color: #fff;
+    border-radius: 10px;
+    font-family: poppins;
+    margin-top: 15px;
+  }
+  
+  h1 {
+    color: #2c3e50;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding: 0;
+    color: #163c63;
+    font-weight: 550;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    
+  }
+  
+  .header, .header2, .buttonss {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    background-color: #0fc8f6;
+  }
+  
+  .header2, .header, .buttonss {
+    background: linear-gradient(45deg, #e09890, #7eb2d4);
+    color: rgb(21, 20, 20);
+  }
+  
+  .buttonss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .buttonss button, .header button, .header2 button {
+    background: linear-gradient(45deg, #3498db, #e74c3c);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    word-spacing: 3px;
+    
+  }
+  
+  .buttonss button:hover {
+    filter: brightness(1.2);
+  }
+  .header2 button {
+    margin-right: 100px;
+  }
+  
+  /* Add more styles as needed for your specific design preferences */
+  
